@@ -8,7 +8,7 @@
 
 **Tech Stack:** Node.js (built-in fs, path, os modules only), no external dependencies.
 
-**Spec:** /c/Users/furia/projects/skillgate/SPEC.md
+**Spec:** ~/projects/skillgate/SPEC.md
 
 ## Global Constraints
 
@@ -957,11 +957,11 @@ cost.
 $ skillgate scan
 name               tokens  source
 -----------------  ------  --------------------------------------------------
-faceless-explainer   7800  /c/Users/furia/.claude/skills
-general-video        5500  /c/Users/furia/.claude/skills
-media-use            2421  /c/Users/furia/.claude/skills
-playwright-cli       4766  /c/Users/furia/.claude/skills
-agentskills            610  /c/Users/furia/.claude/skills
+faceless-explainer   7800  ~/.claude/skills
+general-video        5500  ~/.claude/skills
+media-use            2421  ~/.claude/skills
+playwright-cli       4766  ~/.claude/skills
+agentskills            610  ~/.claude/skills
 ...
 ```
 
@@ -983,8 +983,8 @@ $ skillgate kit brainstorming code-review
 Estimated tokens: 1200
 
 Skills to load:
-- brainstorming (~800 tokens) [/c/Users/furia/.claude/skills]
-- code-review (~400 tokens) [/c/Users/furia/.claude/skills]
+- brainstorming (~800 tokens) [~/.claude/skills]
+- code-review (~400 tokens) [~/.claude/skills]
 
 Activate only these skills for this session.
 ```
@@ -997,8 +997,8 @@ back.
 
 ```bash
 $ skillgate prune playwright-cli
-skillgate: archived /c/Users/furia/.claude/skills/playwright-cli
-          -> /c/Users/furia/.skillgate/archive/2026-10-14T22-30-00-123/playwright-cli
+skillgate: archived ~/.claude/skills/playwright-cli
+          -> ~/.skillgate/archive/2026-10-14T22-30-00-123/playwright-cli
 ```
 
 ### `skillgate audit`
@@ -1068,7 +1068,7 @@ MIT
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/furia/skillgate"
+    "url": "https://github.com/Drastick123/skillgate"
   }
 }
 ```
