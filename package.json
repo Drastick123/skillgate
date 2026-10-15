@@ -1,0 +1,28 @@
+{
+  "name": "skillgate",
+  "version": "0.1.0",
+  "description": "Curate which Claude Code skills are active per session, so you stop paying for skills you never use.",
+  "type": "module",
+  "bin": {
+    "skillgate": "bin/skillgate.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "tokens",
+    "productivity"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furia/skillgate"
+  }
+}
